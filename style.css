@@ -1,0 +1,933 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+
+body{
+    background: #f9f9f9;
+}
+/*======Nab part goes here=====*/
+.mx{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+nav{
+    width: 100%;
+    background:rgba(0, 0, 0, 0.288);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.conatiner{
+    width:1170px;
+    margin:0 auto;
+}
+.logo{
+
+    width:270px;
+    float: left;
+    padding-top: 22px;
+}
+.menu{
+    float: left;
+    width:900px;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+   
+padding-left: 42px;
+   
+text-transform: uppercase;
+   
+line-height:70px;
+   
+display: inline-block;
+}
+.menu ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    color:#f5f5f5;
+    font-family: 'Roboto Condensed', sans-serif;
+    transition: all linear 0.4s;
+}
+.menu ul li a:hover{
+    color:#28b8d8;
+
+}
+
+/*======banner part goes here=====*/
+
+
+ section#banner{
+   background: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 252px;
+    padding-bottom: 198px;
+}
+
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#ffffff;
+    text-transform: uppercase;
+    margin-bottom: -8px;
+
+}
+.banner_text h2{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    color:#ffffff;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-bottom: 2px;
+    
+}
+
+.banner_text p{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    color:#ffffff;
+    font-weight: 300;
+    
+    
+}
+
+/*======Servics part goes here=====*/
+#servics{
+    padding-bottom: 66px;
+}
+.servics_heading{
+    text-align: center;
+}
+.servics_heading h1{
+    font-size: 30px;
+    color:#444444;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    padding-top: 56px;
+    padding-bottom: 14px;
+}
+
+.servics_heading p{
+    font-size: 14px;
+    color:#444444;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.servics-box h2{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color:#444444;
+    padding-bottom: 20px;
+}
+
+.box_images{
+    width:370px;
+    float: left;
+    border:1px solid #e3e3e3;
+}
+.box_images img{
+    padding: 15px;
+}
+.box_images h3{
+    font-size: 17px;
+    color:#444444;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.box_images p{
+    font-size: 14px;
+    color:#666666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    line-height: 22px;
+    padding: 0px 12px;
+    padding-top: 6px;
+    padding-bottom: 24px;
+}
+
+/*======Gallary part goes here=====*/
+#gallary{
+    background:#2c2c2c;
+    padding-top: 38px;
+    padding-bottom: 50px;
+   
+}
+.head{
+    text-align: center;
+}
+#gallary .head h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color:#d5d5d5;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+  
+}
+.head h3::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -115px;
+  width: 100px;
+  height: 1px;
+  background-color: #535353;
+  transform: translateY(-50%);
+
+}
+.head h3::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -115px;
+    width: 100px;
+    height: 1px;
+    background-color: #535353;
+    transform: translateY(-50%);
+   
+  }
+  .gal_item {
+    width: 25%;
+    float: left;
+    line-height: 0;
+}
+.gal_btn{
+    text-align: center;
+    padding-top: 55px;
+}
+.gal_btn a{
+    padding:16px 20px ;
+    border:1px solid#797979;
+    color:#a6a6a6;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+
+}
+.gal_btn i{
+    margin-right: 6px;
+}
+/*======journer part goes here=====*/
+#journer{
+    padding-top: 78px;
+    padding-bottom: 65px;
+}
+.jounner_head h1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color:#444444;
+   
+}
+.jounner_head{
+    text-align: center;
+}
+.jounner_head h1{
+    position: relative;
+    display: inline;
+   
+}
+.journer_main {
+    margin-top: 30px;
+}
+.jounner_head h1::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -115px;
+    width: 100px;
+    height: 1px;
+    background-color: #d9d9d9;
+    transform: translateY(-50%);
+  
+  }
+  .jounner_head h1::before{
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -115px;
+      width: 100px;
+      height: 1px;
+      background-color:#d9d9d9;
+      transform: translateY(-50%);
+     
+    }
+
+    .journer_item{
+       
+        width:370px;
+        float: left;
+        text-align: center;
+        background:white;
+        border: 1px solid #e3e3e3;
+    }
+
+    .journer_item h3{
+        font-size: 16px;
+        font-weight: 700;
+        color: #444444;
+        font-family: 'Roboto Slab', serif;
+       
+    }
+
+    .journer_item h6{
+        font-size: 12px;
+        font-weight: 400;
+        color: #999999;
+        font-family: 'Roboto', serif;
+        padding-top: 10px;
+    }
+    .journer_top{
+        padding: 25px;
+    }
+    .journer_btm{
+        text-align: left;
+        padding: 25px;
+    }
+    .journer_btm p{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', serif;
+        color:#666666;
+        line-height: 22px;
+        padding-bottom: 14px;
+    }
+    .journer_btm h5 a{
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 400;
+        font-family: 'Roboto', serif;
+        color:#999999;
+        border-bottom: 1px solid #28b8d8 ;
+        padding-bottom: 5px;
+    }
+    .journer_btm h4{
+        float: right;
+        text-transform: uppercase;
+        font-size: 11px;
+        font-weight: 400;
+        font-family: 'Roboto', serif;
+        color:#999999;
+        margin-top: -14px;
+    }
+    .journer_btm h4 i{
+        margin-right:4px;
+        
+    }
+   
+/*======little part goes here=====*/
+
+ #little{
+    padding-bottom: 60px;
+ }
+
+.little-left {
+    width:570px;
+    float: left;
+    margin-right: 20px;
+}
+
+.leftHead h3{
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color:#444444;
+    padding-bottom: 20px;
+   position: relative;
+}
+
+.leftHead h3::after {
+    content: "";
+    position: absolute;
+    top: 25%;
+    right: 296px;
+    width: 100px;
+    height: 1px;
+    background-color: #d9d9d9;
+    transform: translateY(-25%);
+}
+.little-right{
+    width:570px;
+    float: left;
+   
+}
+.rightHead h3 {
+    font-size: 18px;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color:#444444;
+  position: relative;
+  padding-bottom: 20px;
+   
+}
+.rightHead h3::before {
+    content: "";
+    position: absolute;
+    top: 25%;
+    left:130px;
+    width: 100px;
+    height: 1px;
+    background-color: #d9d9d9;
+    transform: translateY(-25%);
+}
+
+.leftimg{
+    width:200px;
+    float: left;
+    margin-right: 20px;
+}
+.lefttext{
+    width:345px;
+    float: left;
+   
+}
+.lefttext h2{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color:#666666;
+    line-height: 28px;
+    margin-top: -8px;
+}
+
+.lefttext p{
+
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    color:#666666;
+    line-height: 24px;
+    padding-top: 7px;
+}
+
+.righticon{
+    width:45px;
+    float: left;
+    margin-right: 20px;
+}
+.righttext{
+    width:500px;
+    float: left;
+}
+.righticon img{
+    padding-bottom: 46px;
+    margin-right: 24px;
+}
+.righttext h2{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color:#444444;
+    margin-bottom: 13px;
+   
+
+}
+.righttext p{
+
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', serif;
+    color:#666666;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+/*======footer part goes here=====*/
+#footer{
+    background-color: #373737;
+    padding-top: 50px;
+    padding-bottom: 26px;
+}
+.footer-item{
+    width:257px;
+    float: left;
+  margin-right: 30px;
+}
+.footer-item h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', serif;
+    text-transform: uppercase;
+    color:#f0f0f0;
+    padding-bottom: 12px;
+}
+.footer-item p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#cacaca;
+    font-family: 'Roboto', serif;
+    line-height: 24px;
+    padding-bottom: 14px;
+}
+.adress-icon {
+    font-size: 14px;
+    font-weight: 400;
+    color:#cacaca;
+    font-family: 'Roboto', serif;
+   float: left;
+    width:10%
+}
+.adress text{
+   
+    float: left;
+    width:90%;
+}
+.aress-text span{
+    font-size: 14px;
+    font-weight: 400;
+    color:#cacaca;
+    font-family: 'Roboto', serif;
+}
+
+.adress-icon i{
+    margin-right: 12px;
+  
+}
+.adress-item{
+    padding-bottom: 6px;
+}
+.footer-item2 p{
+    margin-bottom: 6px;
+}
+.mr{
+    margin-right: 0px;
+}
+
+/*======copyright part goes here=====*/
+    #copyright{
+        background:#333333;
+        padding-bottom:26px;
+        padding-top: 26px
+    }
+    #copyright h1{
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Roboto', serif;
+        text-align: left;
+        color:#cacaca;
+       
+ }
+
+
+ /*======About Pages part goes here=====*/
+
+
+#about-page nav{
+    background-color: rgb(16 114 131 / 68%);
+    position:static;
+}
+
+
+/*======Bread cumb section goes here=====*/
+
+#bread-cumb{
+   border-bottom: 2px solid #ddd;
+}
+
+.breadcumb{
+    line-height: 70px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Roboto', serif;
+    color:#28b8d8;
+}
+.breadcumb a{
+    color:#28b8d8;
+}
+
+
+/*====== about section goes here====*/
+
+#about{
+   padding-top: 20px;
+   padding-bottom: 30px;
+}
+.aboutWrapper{
+    width:100%
+}
+.aboutLeft{
+    width:300px;
+    margin-right: 30px;
+    float: left;
+}
+.aboutLeft img{
+    border: 2px double orange;
+    width:100%;
+}
+.aboutRight{
+
+float: left;
+width:700px
+
+}
+
+.aboutRight h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', serif;
+    text-transform: uppercase;
+    color:#cacaca;
+}
+
+.aboutRight h5{
+    font-size: 18;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', serif;
+    color:#28b8d8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.aboutRight p{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: 'Roboto', serif;
+    padding-top: 5px;
+   
+}
+.soicial{
+    float: left;
+    width:700px;
+    padding-top: 10px;
+
+}
+.soicial h3{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto', serif;
+    color:#28b8d8;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+.soicial i{
+   
+    background:rgb(255, 136, 0);
+    font-size: 20px;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius:50%;
+    color:#ddd
+   
+}
+
+/*======Life Journey section goes here=====*/
+#life-journey{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background:#dddddd;
+}
+
+.head-journey{
+    text-align: center;
+}
+
+.head-journey h3{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color:#444444;
+}
+.head-journey p{
+    text-align: center;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#444444;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.journey-box{
+    padding-top: 10px;
+    width:250px;
+    margin-right: 20px;
+    height:150px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color:#444444;
+    background:#76D7C4;
+    border-radius:4px;
+    float: left;
+}
+.journey-box:hover{
+    transform: rotateZ(-360deg);
+    background: orange;
+   
+    transition: 0.6s;
+}
+.journey-box i{
+    font-size:80px;
+}
+
+.journey-box h6{
+    font-size: 20px;
+}
+
+
+
+/*====== Protfoliyo Pages Goes Here =====*/
+#protfoliyo-page nav{
+    background-color: rgb(16 114 131 / 68%);
+    position:static;
+}
+
+/*===== Servics Pages Goes Here =====*/
+
+
+#servics-page nav{
+    background-color: rgb(16 114 131 / 68%);
+    position:static;
+}
+
+.pt{
+    padding-top: 40px;
+    padding-bottom:  80px!important;
+}
+
+.servics-item-box {
+    background: #607d8b;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 20px;
+}
+.mr-none{
+    margin-right: 0;
+}
+
+.servics-item-box h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color:#ffffff;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.servics-item-box p{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+}
+.servics-item-box i{
+    width: 120px;
+    border-radius: 5px;
+    line-height: 100px;
+    background: #ffc107;
+    font-size: 60px;
+    margin-top: -50px;
+    color:#ddd;
+}
+
+
+/*===== Journal Pages Goes Here =====*/
+
+#journal-page nav{
+    background-color: rgb(16 114 131 / 68%);
+    position:static;
+}
+
+.margin-btm{
+    margin-bottom: 20px;
+}
+
+
+
+/*====== Contact Pages Goes Here =====*/
+#contact-page nav{
+    background-color: rgb(16 114 131 / 68%);
+    position:static;
+}
+.bg{
+   background:#ddd;
+   
+}
+
+
+/*=======Form part goes here =====*/
+#contact{
+   padding-bottom: 30px;
+background: #9e9e9e2b;
+}
+
+.form{
+    padding: 16px;
+    width:40%;
+    float:left;
+    background:rgba(9, 9, 252, 0.856);
+    margin-top: 38px;
+    margin-bottom: 30px;
+}
+.form input{
+    border: none;
+    width:100%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    margin-left: 187px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    background: orange;
+}
+
+input[type="submit"] {
+    background: orange;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all linear 0.4s;
+}
+input[type="submit"]:hover{
+    
+    background:#28b8d8;;
+}
+.adress{
+    width:60%;
+    float: left;
+    margin-top: 38px;
+}
+.map {
+    float: left;
+    margin-left: 50px;
+}
+
+.adress-box{
+    margin-top: 26px;
+    width: 200px;
+    margin-left: 50px;
+    float: left;
+    background: #252323;
+    padding: 14px;
+    text-align: center;
+    border-radius: 10px;
+    height: 270px;
+}
+
+.adress-box h2{
+         font-size: 25px;
+        font-weight: 700;
+        color: #cacaca;
+        font-family: 'Roboto Slab', serif;
+}
+.adress-box i{
+    font-size: 50px;
+    padding-bottom: 10px;
+    color: #03a9f4d4;
+}
+
+.adress-box p{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#ffffff;
+    padding-top: 8px;
+    padding-bottom: 2px;
+}
+
+.ml{
+    margin-left: 20px;
+}
+.pbtm{
+    padding-bottom: 30px;
+}
+
+
+i.fab.fa-facebook-f {
+    font-size: 30px;
+    background: orange;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ddd;
+}
+i.fab.fa-youtube {
+    font-size: 30px;
+    background: orange;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ddd;
+}
+i.fab.fa-linkedin-in {
+    font-size: 30px;
+    background: orange;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #ddd;
+}
+.adress-box i .contuct-i{
+    font-size: 10px;
+}
